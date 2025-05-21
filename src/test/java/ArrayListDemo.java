@@ -11,6 +11,12 @@ public class ArrayListDemo {
 
         ArrayList<String> list = new ArrayList<>(); //holds only String type objects
 
+        // Add elements to the ArrayList
+        myList.add("Hello");
+        myList.add(123);
+        myList.add(45.67);
+        System.out.println("myList: " + myList);
+
 
     }
 }
