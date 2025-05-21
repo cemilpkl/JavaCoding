@@ -15,6 +15,7 @@ public class ArrayListDemo {
         myList.add("Hello");
         myList.add(123);
         myList.add(45.67);
+        myList.add(true);
         System.out.println("myList: " + myList);
         System.out.println("myList: " + myList);
 
