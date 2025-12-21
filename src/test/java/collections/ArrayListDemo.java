@@ -51,6 +51,24 @@ public class ArrayListDemo {
 		arl.set(2, "Good By");
 		System.out.println("After replacing: "+arl);
 		
+		//Read particular element from ArrayList
+		System.out.println(arl.get(4));
+		System.out.println(arl.get(7));
+		
+		
+		//for loop
+		for(int i=0; i<arl.size(); i++) {
+			System.out.println(arl.get(i));
+		}
+		
+		//for each loop
+		for(Object obj : arl) {//Object is a super class of all classes
+			System.out.println(obj);
+		}
+		
+		
+		
+		
 		
 		
 		
