@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class ArrayListDemo {
+public class ArrayListPractise {
 
 	public static void main(String[] args) {
 		
@@ -75,8 +75,24 @@ public class ArrayListDemo {
 			System.out.println("New print with next: "+it.next());
 		}
 		
+		//we use iterator for safe removal
 		
 		
+		//Checking arrayLisy empty?
+		System.out.println("Is arraylist empty:"+arl.isEmpty()); //answer will be ==>false
+		
+		
+		//remove multiple specific elements from arrayList
+		ArrayList arl2 = new ArrayList();
+		arl2.add("Good By");
+		arl2.add("2 LA");
+		
+		System.out.println("Before removal: "+arl);
+		arl.removeAll(arl2);
+		System.out.println("After removal Good By and 2 LA "+arl);
+		
+		
+				
 		
 		
 		
