@@ -1,6 +1,7 @@
 package collections;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class ArrayListDemo {
@@ -42,7 +43,7 @@ public class ArrayListDemo {
 		//Inserting new element into ArrayList
 		//Before insertion
 		System.out.println("Before indexing: "+arl);
-		arl.add(3, " 2 LA");
+		arl.add(3, "2 LA");
 		//After indexing
 		System.out.println("After indexing "+arl);
 		
@@ -64,6 +65,14 @@ public class ArrayListDemo {
 		//for each loop
 		for(Object obj : arl) {//Object is a super class of all classes
 			System.out.println(obj);
+		}
+		
+		
+		
+		Iterator it = arl.iterator();
+		while(it.hasNext()) {
+			
+			System.out.println("New print with next: "+it.next());
 		}
 		
 		
